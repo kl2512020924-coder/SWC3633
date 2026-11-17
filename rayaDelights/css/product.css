@@ -1,0 +1,54 @@
+body{
+    font-family: 'JetBrainsMono', monospace;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 30px;
+}
+
+.productTable{
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.productTable h1{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background: #0492c2;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+td{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background: #f9f9f9;
+}
+
+tr:hover{
+    background: #eef7ff;
+    transition: 0.3s;
+}
+
+.table-header{
+    display:flex;
+    justify-content:flex-end;
+    margin-bottom:15px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'JetBrainsMono', monospace;
+    background: #f4f6f9;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    width: 600px;
+    max-width: 100%;
+}
+
+form:hover{
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+h2{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[readonly]{
+    background: #f1f1f1;
+    color: #555;
+}
+
+input:focus, select:focus{
+    outline: none;
+    border-color: #0492c2;
+    box-shadow: 0 0 5px rgba(39, 174, 174, 0.3);
+}
+
+select{
+    cursor: pointer;
+}
+
+#total{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-group{
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.button-group input{
+    flex: 1;
+    height: 50px;
+    padding: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="submit"]{
+    background:#0492c2;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+input[type="submit"]:hover{
+    background:#03749b;
+}
+
+input[type="reset"]{
+    background:#e74c3c;
+    color:white;
+    border:none;
+}
+
+input[type="reset"]:hover{
+    background:#c0392b;
+}
